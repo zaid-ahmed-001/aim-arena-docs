@@ -32,6 +32,15 @@ export default defineTheme({
         initial: '',
         dark: ''
       }
+    },
+
+    header: {
+      logo: {
+        height: {
+          initial: '1.5rem',
+          sm: '1.75rem'
+        }
+      }
     }
   }
 })
