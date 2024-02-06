@@ -40,7 +40,7 @@ export default defineAppConfig({
     footer: {
       credits: {
         icon: '',
-        text: '©2023 | Aim Arena All Rights Reserverd',
+        text: '©2024 | Aim Arena All Rights Reserverd',
         href: ''
       },
 
