@@ -3,11 +3,22 @@ export default defineAppConfig({
     title: 'Aim Arena Documentation',
     description: 'The best place to start your documentation.',
     image: '/favicon2.ico',
-
+    iconLinks: [
+      {
+        href: 'https://nuxt.com',
+        icon: 'simple-icons:nuxtdotjs'
+      }
+    ],
     socials: {
       github: 'https://github.com/siddharth220/aim-arena-source',
       twitter: '',
-      youtube: 'https://www.youtube.com/watch?v=TWg75e6QsOk&list=PLTjPwwL9_KGsuNv7Z1-B-PpBQeH6nVIVp'
+      youtube: 'https://www.youtube.com/watch?v=TWg75e6QsOk&list=PLTjPwwL9_KGsuNv7Z1-B-PpBQeH6nVIVp',
+      discord: [
+        {
+          href: 'https://nuxt.com',
+          icon: 'simple-icons:nuxtdotjs'
+        }
+      ]
     },
 
     github: {
